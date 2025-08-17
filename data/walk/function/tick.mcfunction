@@ -1,3 +1,3 @@
-execute if items entity @a weapon.mainhand *[custom_data~{id:"walk"}] as Nekimo at @s rotated ~ 0 if block ^ ^ ^0.5 #walk:nonsolid run tp @s ^ ^ ^.1
+execute if items entity @a weapon.mainhand *[custom_data~{id:"walk"}] as @e[tag=Entity1] at @s rotated ~ 0 if block ^ ^ ^0.5 #walk:nonsolid run tp @s ^ ^ ^.1
 execute if items entity @a weapon.mainhand *[custom_data~{id:"look"}] run execute as @e[tag=entity2] rotated as @e[tag=entity1] run rotate @s ~ ~
-execute if items entity @a weapon.mainhand *[custom_data~{id:"run"}] as Nekimo at @s rotated ~ 0 if block ^ ^ ^0.5 #walk:nonsolid run tp @s ^ ^ ^.4
+execute if items entity @a weapon.mainhand *[custom_data~{id:"run"}] as N@e[tag=Entity1] at @s rotated ~ 0 if block ^ ^ ^0.5 #walk:nonsolid run tp @s ^ ^ ^.4
